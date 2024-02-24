@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="mt-4 bg-white ">
       <ul className="custom-nav-class">
-        <Link>
+        <Link className="flex items-start justify-start">
           <RxHamburgerMenu className="text-6xl text-black" />
         </Link>
         <Link className="custom-ul-class">

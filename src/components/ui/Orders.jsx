@@ -5,7 +5,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 
 const Orders = () => {
   return (
-    <div className="mx-4 text-[#637381] font-semibold">
+    <div className=" text-[#637381] font-semibold">
       {ordersData.map((order) => (
         <div key={order.id} className="flex items-center text-2xl">
           <span className="w-10">
@@ -33,7 +33,7 @@ const Orders = () => {
               <p>{(order.price + order.quantity).toFixed(2)}</p>
             </div>
           </div>
-          <span className="flex justify-end w-10 text-[#E55C57]">
+          <span className="flex justify-end w-10 text-3xl text-[#E55C57]">
             <RiDeleteBin6Line />
           </span>
         </div>

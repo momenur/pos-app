@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-nav-class {
-  @apply text-[#5C6AC4] flex items-center w-full text-3xl justify-evenly;
+  @apply text-[#5C6AC4] flex items-center w-full text-3xl justify-between;
 }
 .custom-ul-class {
   @apply flex gap-2 items-center px-3 py-2 bg-[#E7E9F6] rounded-md;
