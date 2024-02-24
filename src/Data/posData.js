@@ -1,0 +1,92 @@
+export const featuresData = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/VBDksp4/img-1.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/p3gpV3P/img-2.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/3v9dY0f/img-3.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/gwWB5MS/img-4.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co/D8wfXRV/img-5.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 6,
+    img: "https://i.ibb.co/6vcY7N7/img-6.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/tLsW8rH/img-7.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 8,
+    img: "https://i.ibb.co/XsrNZsB/img-8.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 9,
+    img: "https://i.ibb.co/n3t3jR8/img-9.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 10,
+    img: "https://i.ibb.co/QPbVLK9/img-10.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 11,
+    img: "https://i.ibb.co/XWf0q7F/img-11.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 12,
+    img: "https://i.ibb.co/Z2KnTRh/img-12.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 13,
+    img: "https://i.ibb.co/kJMTt5K/img-13.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 14,
+    img: "https://i.ibb.co/t8Knc1v/img-14.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+  {
+    id: 15,
+    img: "https://i.ibb.co/pwFfmjM/img-15.png",
+    name: "Pure White Polo",
+    price: 34,
+  },
+];
