@@ -1,4 +1,4 @@
-export const featuresData = [
+export const productsData = [
   {
     id: 1,
     img: "https://i.ibb.co/VBDksp4/img-1.png",

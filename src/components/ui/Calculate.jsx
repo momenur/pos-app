@@ -20,19 +20,19 @@ const Calculate = () => {
       <div className="flex flex-col items-end text-2xl">
         <div className="flex justify-between py-3 w-96 border-y-[3px]">
           <p>Sub Total</p>
-          <p className="font-semibold">$ {totalPrice.toFixed(2)}</p>
+          <p className="font-semibold">${totalPrice.toFixed(2)}</p>
         </div>
         <div className="flex justify-between py-3 w-96 ">
           <p>TAX</p>
-          <p className="font-semibold">$ {tax.toFixed(2)}</p>
+          <p className="font-semibold">${tax.toFixed(2)}</p>
         </div>
         <div className="flex justify-between py-3 w-96 border-y-[3px]">
           <p>Shipping</p>
-          <p className="font-semibold">$ {shipping.toFixed(2)}</p>
+          <p className="font-semibold">${shipping.toFixed(2)}</p>
         </div>
         <div className="flex justify-between py-3 w-96 ">
           <p className="text-[#5C6AC4] font-semibold">Discount on Cart</p>
-          <p className="font-semibold">$ {discount.toFixed(2)}</p>
+          <p className="font-semibold">${discount.toFixed(2)}</p>
         </div>
       </div>
 
