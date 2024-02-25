@@ -32,7 +32,7 @@ const Footer = () => {
             {" "}
             <LiaHandHoldingUsdSolid />
           </span>
-          Pay Now
+          <Link to="/payment">Pay Now</Link>
         </button>
       </Link>
     </footer>
