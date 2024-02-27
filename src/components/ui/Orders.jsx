@@ -7,8 +7,11 @@ const Orders = () => {
   return (
     <div className=" text-[#637381] font-semibold">
       {ordersData.map((order) => (
-        <div key={order.id} className="flex items-center text-2xl">
-          <span className="w-10">
+        <div
+          key={order.id}
+          className="flex items-center capitalize lg:text-sm xl:text-lg"
+        >
+          <span className="text-xl lg:w-8 xl:w-10">
             <FaRegEdit />
           </span>
           <div
@@ -17,8 +20,8 @@ const Orders = () => {
             }`}
           >
             <div className="grid grid-cols-12 col-span-8">
-              <p className="col-span-9">{order.name}</p>
-              <p className="col-span-3">$ {order.price.toFixed(2)}</p>
+              <p className="col-span-9 truncate">{order.name}</p>
+              <p className="col-span-3">${order.price.toFixed(2)}</p>
             </div>
             <div className="flex justify-between col-span-2">
               <button>
@@ -33,7 +36,7 @@ const Orders = () => {
               <p>{(order.price + order.quantity).toFixed(2)}</p>
             </div>
           </div>
-          <span className="flex justify-end w-10 text-3xl text-[#E55C57]">
+          <span className="flex justify-end lg:w-8 xl:w-10 lg:text-xl xl:text-3xl text-[#E55C57]">
             <RiDeleteBin6Line />
           </span>
         </div>

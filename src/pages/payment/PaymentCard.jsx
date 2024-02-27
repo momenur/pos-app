@@ -5,7 +5,7 @@ const PaymentCard = () => {
   return (
     <section className="bg-white text-[#637381] mt-10 border-2 border-[#637381] grid grid-cols-12 gap-16 rounded-md h-5/6">
       <div className="border-[#637381] col-span-4 border-e-2">
-        <ul className="px-6 pt-16 text-2xl font-semibold ">
+        <ul className="pt-16 text-2xl font-semibold ">
           <li className="custom-li-class">
             <span>
               <BiMoneyWithdraw />

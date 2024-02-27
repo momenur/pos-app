@@ -3,7 +3,7 @@ import Container from "../ui/Container";
 
 const MainLayouts = () => {
   return (
-    <div className="grid grid-cols-12">
+    <div className="grid-cols-12 lg:grid">
       <Container />
       <Outlet />
     </div>

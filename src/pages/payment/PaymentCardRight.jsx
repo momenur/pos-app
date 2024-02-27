@@ -27,16 +27,16 @@ const PaymentCardRight = () => {
           placeholder="Card Screet"
         />
       </form>
-      <div className="flex justify-between text-4xl pe-16">
+      <div className="flex justify-between text-2xl pe-16">
         <Link to="/">
-          <button className="bg-[#FADEDD] text-[#E55C57] py-4 px-6 col-span-3  flex items-center gap-6 rounded-md">
+          <button className="bg-[#FADEDD] text-[#E55C57] py-4 px-4 col-span-3  flex items-center gap-6 rounded-md">
             <span>
               <IoCloseCircleOutline />
             </span>
             Cancel
           </button>
         </Link>
-        <button className="flex px-6 rounded-md text-white items-center gap-6 bg-[#3674D9]">
+        <button className="flex px-2 rounded-md text-white items-center gap-4 bg-[#3674D9]">
           {" "}
           <span>
             {" "}

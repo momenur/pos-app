@@ -17,28 +17,28 @@ const Calculate = () => {
   const total = totalPrice + tax + shipping + discount;
   return (
     <div className="mt-10 ">
-      <div className="flex flex-col items-end text-2xl">
-        <div className="flex justify-between py-3 w-96 border-y-[3px]">
+      <div className="grid items-end justify-end grid-cols-1 text-lg xl:text-xl justify-items-end">
+        <div className="flex justify-between py-3  border-y-[3px] w-1/2">
           <p>Sub Total</p>
           <p className="font-semibold">${totalPrice.toFixed(2)}</p>
         </div>
-        <div className="flex justify-between py-3 w-96 ">
+        <div className="flex justify-between w-1/2 py-3">
           <p>TAX</p>
           <p className="font-semibold">${tax.toFixed(2)}</p>
         </div>
-        <div className="flex justify-between py-3 w-96 border-y-[3px]">
+        <div className="flex justify-between py-3  border-y-[3px] w-1/2">
           <p>Shipping</p>
           <p className="font-semibold">${shipping.toFixed(2)}</p>
         </div>
-        <div className="flex justify-between py-3 w-96 ">
+        <div className="flex justify-between w-1/2 py-3">
           <p className="text-[#5C6AC4] font-semibold">Discount on Cart</p>
           <p className="font-semibold">${discount.toFixed(2)}</p>
         </div>
       </div>
 
-      <div className="flex justify-between bg-[#E1EAF9]  px-4 rounded-md py-6 items-center text-[#4B83DD] text-2xl">
+      <div className="grid grid-cols-2 bg-[#E1EAF9]  px-2 rounded-md py-2 items-center text-[#4B83DD] text-xl">
         <p>{`Product Count (${totalQuantity})`}</p>
-        <div className="flex justify-between text-4xl font-semibold w-96 ">
+        <div className="flex justify-between font-semibold lg:text-lg xl:text-2xl ">
           <p>Total</p>
           <p>${total.toFixed(2)}</p>
         </div>
