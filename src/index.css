@@ -9,5 +9,5 @@
   @apply flex gap-1 items-center p-1 2xl:px-2 2xl:py-2 bg-[#E7E9F6] rounded-md;
 }
 .custom-li-class {
-  @apply flex items-center gap-4 px-6 py-4;
+  @apply flex items-center gap-2 px-4 py-2 xl:px-6 xl:gap-4 xl:py-4;
 }

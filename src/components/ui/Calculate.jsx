@@ -16,17 +16,17 @@ const Calculate = () => {
 
   const total = totalPrice + tax + shipping + discount;
   return (
-    <div className="mt-10 ">
-      <div className="grid items-end justify-end grid-cols-1 text-lg xl:text-xl justify-items-end">
-        <div className="flex justify-between py-3  border-y-[3px] w-1/2">
+    <div className="mt-8 xl:mt-10">
+      <div className="grid items-end justify-end grid-cols-1 xl:text-xl justify-items-end">
+        <div className="flex justify-between py-2 xl:py-3  border-y-[2px] w-1/2">
           <p>Sub Total</p>
           <p className="font-semibold">${totalPrice.toFixed(2)}</p>
         </div>
-        <div className="flex justify-between w-1/2 py-3">
+        <div className="flex justify-between w-1/2 py-2 xl:py-3">
           <p>TAX</p>
           <p className="font-semibold">${tax.toFixed(2)}</p>
         </div>
-        <div className="flex justify-between py-3  border-y-[3px] w-1/2">
+        <div className="flex justify-between py-2 xl:py-3  border-y-[2px] w-1/2">
           <p>Shipping</p>
           <p className="font-semibold">${shipping.toFixed(2)}</p>
         </div>

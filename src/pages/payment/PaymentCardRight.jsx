@@ -4,45 +4,46 @@ import { Link } from "react-router-dom";
 
 const PaymentCardRight = () => {
   return (
-    <div className="flex flex-col justify-between col-span-8 pb-8">
-      <form className="w-full pt-16 text-2xl">
+    <div className="flex flex-col justify-between h-full pb-8">
+      <form className="w-full pt-16 xl:text-2xl pe-8 ">
         <input
-          className="flex-grow w-10/12 bg-transparent border-[#637381] border-b-2 outline-none"
+          className="flex-grow w-full  bg-transparent border-[#637381] border-b xl:border-b-2 outline-none"
           type="text"
           placeholder="Card Name"
         />
         <input
-          className="flex-grow w-10/12 bg-transparent border-[#637381] border-b-2 outline-none pt-10"
+          className="flex-grow w-full bg-transparent border-[#637381] border-b xl:border-b-2 outline-none pt-10"
           type="text"
           placeholder="Card Number "
         />
         <input
-          className="flex-grow w-10/12 bg-transparent border-[#637381] border-b-2 outline-none pt-10"
+          className="flex-grow w-full bg-transparent border-[#637381] border-b xl:border-b-2 outline-none pt-10"
           type="text"
           placeholder="Card Expire Date"
         />
         <input
-          className="flex-grow w-10/12 bg-transparent border-[#637381] border-b-2 outline-none pt-10"
+          className="flex-grow w-full bg-transparent border-[#637381] border-b xl:border-b-2 outline-none pt-10"
           type="text"
           placeholder="Card Screet"
         />
       </form>
-      <div className="flex justify-between text-2xl pe-16">
+
+      <div className="flex justify-between gap-6 lg:text-lg xk:text-xl 2xl:text-2xl pe-16">
         <Link to="/">
-          <button className="bg-[#FADEDD] text-[#E55C57] py-4 px-4 col-span-3  flex items-center gap-6 rounded-md">
+          <button className="bg-[#FADEDD] text-[#E55C57] py-4 px-2 xl:px-4 col-span-3  flex items-center gap-6 rounded-md">
             <span>
               <IoCloseCircleOutline />
             </span>
             Cancel
           </button>
         </Link>
-        <button className="flex px-2 rounded-md text-white items-center gap-4 bg-[#3674D9]">
+        <button className="flex px-2 xl:px-4 rounded-md text-white items-center gap-4 bg-[#3674D9] flex-grow">
           {" "}
           <span>
             {" "}
             <LiaHandHoldingUsdSolid />
           </span>
-          <Link className="text-white">Complete Payment</Link>
+          <Link className="text-white truncate">Complete Payment</Link>
         </button>
       </div>
     </div>

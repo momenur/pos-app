@@ -3,9 +3,9 @@ import PaymentCardRight from "./PaymentCardRight";
 
 const PaymentCard = () => {
   return (
-    <section className="bg-white text-[#637381] mt-10 border-2 border-[#637381] grid grid-cols-12 gap-16 rounded-md h-5/6">
+    <section className="bg-white text-[#637381] lg:mt-6 xl:mt-10 border-2 border-[#637381] grid grid-cols-12 gap-6 xl:gap-16 rounded-md h-5/6 w-full">
       <div className="border-[#637381] col-span-4 border-e-2">
-        <ul className="pt-16 text-2xl font-semibold ">
+        <ul className="pt-8 text-lg font-semibold xl:pt-16 xl:text-2xl ">
           <li className="custom-li-class">
             <span>
               <BiMoneyWithdraw />
@@ -33,7 +33,9 @@ const PaymentCard = () => {
         </ul>
       </div>
 
-      <PaymentCardRight />
+      <div className="col-span-8">
+        <PaymentCardRight />
+      </div>
     </section>
   );
 };
