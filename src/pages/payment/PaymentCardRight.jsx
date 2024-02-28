@@ -28,7 +28,7 @@ const PaymentCardRight = () => {
         />
       </form>
 
-      <div className="flex justify-between gap-6 lg:text-lg xk:text-xl 2xl:text-2xl pe-16">
+      <div className="flex justify-between gap-6 mt-16 lg:text-lg xk:text-xl 2xl:text-2xl pe-16 lg:mt-0">
         <Link to="/">
           <button className="bg-[#FADEDD] text-[#E55C57] py-4 px-2 xl:px-4 col-span-3  flex items-center gap-6 rounded-md">
             <span>

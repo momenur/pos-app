@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .custom-nav-class {
-  @apply text-[#5C6AC4] flex items-center w-full font-semibold md:text-sm xl:text-lg justify-between;
+  @apply text-[#5C6AC4] flex items-center w-full font-semibold md:text-lg lg:text-sm xl:text-lg justify-between;
 }
 .custom-ul-class {
-  @apply flex gap-1 items-center p-1 2xl:px-2 2xl:py-2 bg-[#E7E9F6] rounded-md;
+  @apply flex gap-1 items-center p-1 md:px-3 lg:px-1 2xl:px-2 2xl:py-2 bg-[#E7E9F6] rounded-md;
 }
 .custom-li-class {
   @apply flex items-center gap-2 px-4 py-2 xl:px-6 xl:gap-4 xl:py-4;

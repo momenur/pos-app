@@ -6,7 +6,7 @@ import { IoReload, IoAddCircle } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="mt-4 bg-white lg:ps-4 ">
+    <nav className="mt-4 bg-white md:ps-4 ">
       <ul className="custom-nav-class">
         <Link className="flex items-start justify-start">
           <RxHamburgerMenu className="text-xl text-black lg-text-2xl xl:text-4xl" />

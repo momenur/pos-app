@@ -2,7 +2,7 @@ import { productsData } from "../../Data/posData";
 
 const AllProducts = () => {
   return (
-    <section className="grid grid-cols-5 gap-6 px-8 text-center text-[#637381] mt-8">
+    <section className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 lg:grid-cols-3 gap-6 px-8 text-center text-[#637381] my-8">
       {productsData.map((product) => (
         <div key={product.id} className=" border-2 border-[#637381]">
           <img className="w-full" src={product.img} alt="" />

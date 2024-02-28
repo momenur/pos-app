@@ -9,9 +9,9 @@ const Orders = () => {
       {ordersData.map((order) => (
         <div
           key={order.id}
-          className="flex items-center capitalize lg:text-sm xl:text-lg"
+          className="flex items-center capitalize md:text-lg lg:text-sm xl:text-lg"
         >
-          <span className="text-xl lg:w-8 xl:w-10">
+          <span className="text-xl md:w-9 lg:w-8 xl:w-10">
             <FaRegEdit />
           </span>
           <div
@@ -36,7 +36,7 @@ const Orders = () => {
               <p>{(order.price + order.quantity).toFixed(2)}</p>
             </div>
           </div>
-          <span className="flex justify-end lg:w-8 xl:w-10 lg:text-xl xl:text-3xl text-[#E55C57]">
+          <span className="flex justify-end md:w-9 lg:w-8 xl:w-10 lg:text-xl xl:text-3xl text-[#E55C57]">
             <RiDeleteBin6Line />
           </span>
         </div>
