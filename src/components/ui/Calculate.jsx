@@ -13,8 +13,8 @@ const Calculate = () => {
   const tax = 25;
   const shipping = 5;
   const discount = 10;
-
   const total = totalPrice + tax + shipping + discount;
+
   return (
     <div className="mt-8 xl:mt-10">
       <div className="grid items-end justify-end grid-cols-1 xl:text-xl justify-items-end">

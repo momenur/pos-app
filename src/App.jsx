@@ -18,8 +18,6 @@ function App() {
       document.body.style.overflow = "auto";
     };
   }, [isAddProduct, isCategory]);
-
-  console.log(isAddProduct);
   return (
     <div className="relative mx-auto bg-white max-w-screen-2xl">
       <AddCustomer />

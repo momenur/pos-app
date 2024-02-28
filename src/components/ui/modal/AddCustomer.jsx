@@ -4,6 +4,7 @@ import { MdArrowBackIos } from "react-icons/md";
 
 const AddCustomer = () => {
   const { isAddProduct, addProduct } = useContext(ModalContext);
+
   return (
     <div
       onClick={() => addProduct()}

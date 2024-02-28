@@ -4,6 +4,7 @@ import { categoriesData } from "../../../Data/categories";
 
 const AllCategories = () => {
   const { isCategory, showAllCategory } = useContext(ModalContext);
+
   return (
     <div
       onClick={() => showAllCategory()}
