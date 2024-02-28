@@ -7,7 +7,6 @@ import AllCategories from "./components/ui/modal/AllCategories";
 function App() {
   const { isAddProduct, isCategory } = useContext(ModalContext);
 
-  // Add useEffect hook to handle scrolling
   useEffect(() => {
     if (isAddProduct || isCategory) {
       document.body.style.overflow = "hidden";
